@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Professional Summery</title>
     <link rel="icon" type="image/x-icon" href="assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <style>
-      #summary{
+      .summary{
        color: lightsalmon;
        background-color: darkcyan;
       }
@@ -24,18 +27,25 @@ background-color: silver;
     color: beige;
      background-color: brown;
 }
-
-	
+.summary{
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#skills{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 3px;
+}
     </style>
   </head>
   <body>
 
 
-    <h2 id="summary">Career Objectives</h2>
+    <h2 class="summary">Career Objectives</h2>
     <p>TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATIONAL GROWTH</p>
    
-      <h2 id="summary">Professional Summery</h2>
-    <ul style="list-style-type: square;">
+      <h2 class="summary">Professional Summery</h2>
+    <ul id="skills">
       <li >
         Having 1 years of experience in developing Single page Web Applications
         using <span id="angular">Angular 8</span>, HTML5, CSS3, Bootstrap 5, JavaScript, TypeScript

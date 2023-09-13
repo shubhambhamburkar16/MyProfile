@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Education Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
+<style>
+    .education{
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    #collegeDetails{
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
 <body>
     <fieldset>
-        <legend><label for="">Education Details</label></legend>
-        <table border="1px solid black">
+        <legend class="education"><label for="">Education Details</label></legend>
+        <table id="collegeDetails" border="1px solid black">
             <thead>
                 <tr>
                     <th>Name</th>
