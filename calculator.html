@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <style>
+        .container{
+            width: 700px;
+            height: 400px;
+            background-color: beige;
+            color: cadetblue;
+            display: inline-block;
+            position: relative;
+            border: 2px solid black;
+            position: fixed;
+            top: 300px;
+            left: 300px;
+            text-align: center;
+
+        }
+        #calculator{
+            font-family: 'Roboto', sans-serif;
+        }
+        .button{
+            background-color: green;
+            text-decoration: solid;
+            text-transform: capitalize;
+            text-align: center;
+            shape-outside: margin-box;
+            width: 300px;
+            border-style: groove;
+        }
+        #number{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <h1 id="calculator">DISCOUNT CALCULATOR</h1>
+        <p>Enter the Bill amount and discount in percentage</p>
+        <p><label for="">Bill Amount</label></p>
+        <p><input type="number"></p>
+        <p><label for="">Discount Percentage</label></p>
+        <p> <input type="percentage"></p> 
+        <button class="button" type="submit" width="200px">Calculate</button>
+        <p>Total Discount Amount</p>
+    </div>
+</body>
+</html>
